@@ -1,0 +1,52 @@
+.content {
+    position: relative;
+    z-index: 1;
+}
+h1{
+	text-align: center;
+	font-family: Comic Sans MS;
+	color:rgb(219, 93, 255);
+}
+.parrafo{
+	text-align: center;
+    font-family:cursive;
+    color:rgb(205, 205, 205);
+}
+
+.contenedor{
+	width: 40%;
+	padding: 25px;
+	margin: 15px auto;
+	text-align: center;
+	background: #e5e2ee7c;
+	border-radius: 20px;
+	font-weight: 1000;
+	font-size: 30px;
+}
+.cancion{
+	border-radius: 5px;
+	background: #e5e2ee7c;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
